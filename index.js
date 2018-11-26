@@ -1,4 +1,4 @@
-const baseURL = 'https://api.github.com';
+const base = 'https://api.github.com';
 const owner = 'kakhlaghi';
 
 function getToken() {
@@ -10,8 +10,8 @@ function getToken() {
 function forkRepo() {
   const repo = 'learn-co-curriculum/js-ajax-fetch-lab';
   //use fetch to fork it!
-  const url = `${owner}`
-  
+  const url = `${base}/`
+
   fetch(
     'https://api.github.com/repos/:your_ghname/:your_repo/commits/:sha/comments',
     {
@@ -22,7 +22,7 @@ function forkRepo() {
       }
     }
   ).then(res => console.log(res));
-  
+
 }
 
 function showResults(json) {
