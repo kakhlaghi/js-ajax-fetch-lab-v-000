@@ -4,7 +4,7 @@ const owner = 'kakhlaghi';
 function getToken() {
   //change to your token to run in browser, but set
   //back to '' before committing so all tests pass
-  return '054157c7a3699ef170a75f6ceede18d85b57f401';
+  return 'learn';
 }
 
 function forkRepo() {
