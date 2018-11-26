@@ -1,6 +1,5 @@
 const baseURL = 'https://api.github.com';
-
-const owner = 'kakhlaghi'
+const owner = 'kakhlaghi';
 
 function getToken() {
   //change to your token to run in browser, but set
