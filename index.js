@@ -31,7 +31,7 @@ function showResults(json) {
 function createIssue() {
   //use this function to create an issue based on the values input in index.html
   const repo = `${user}/js-ajax-fetch-lab`;
-  const url
+  const url = 
 
   fetch(url,
     {
