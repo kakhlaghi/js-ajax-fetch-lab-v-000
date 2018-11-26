@@ -12,8 +12,7 @@ function forkRepo() {
   //use fetch to fork it!
   const url = `${base}/repos/${owner}/${repo}/forks`
 
-  fetch(
-    'https://api.github.com/repos/:your_ghname/:your_repo/commits/:sha/comments',
+  fetch(url,
     {
       method: 'POST',
       body: JSON.stringify(postData),
