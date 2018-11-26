@@ -1,5 +1,5 @@
 const base = 'https://api.github.com';
-const owner = 'kakhlaghi';
+const owner = '<YOUR_USERNAME>';
 
 function getToken() {
   //change to your token to run in browser, but set
