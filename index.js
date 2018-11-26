@@ -1,3 +1,4 @@
+const baseURL = 'https://api.github.com';
 
 const owner = 'kakhlaghi'
 
@@ -10,7 +11,7 @@ function getToken() {
 function forkRepo() {
   const repo = 'learn-co-curriculum/js-ajax-fetch-lab';
   //use fetch to fork it!
-  const url = $
+  const url = $()
 }
 
 function showResults(json) {
