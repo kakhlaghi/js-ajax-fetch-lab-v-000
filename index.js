@@ -20,7 +20,7 @@ function forkRepo() {
       }
     })
     .then(res => res.json();
-    .then(json => showResults(json))
+    .then(json => showResults(json));
 
 }
 
