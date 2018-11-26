@@ -29,7 +29,7 @@ function showResults(json) {
 
 function createIssue() {
   //use this function to create an issue based on the values input in index.html
-  const repo = `${user}/js-ajax-fetch-lab`;
+  const repo = `${owner}/js-ajax-fetch-lab`;
   const url = `${base}/repos/${repo}/issues`;
   const postData = {
   title: document.getElementById('title').value,
