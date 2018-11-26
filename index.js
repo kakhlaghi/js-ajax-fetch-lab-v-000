@@ -17,7 +17,7 @@ function forkRepo() {
       method: 'POST',
       body: JSON.stringify(postData),
       headers: {
-        Authorization: `token ${token}`
+        Authorization: `token ${getToken()}`
       }
     }
   ).then(res => console.log(res));
