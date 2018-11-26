@@ -19,7 +19,7 @@ function forkRepo() {
         Authorization: `token ${getToken()}`
       }
     }
-  ).then(res => console.log(res));
+  ).then(res => res.json();
 
 }
 
